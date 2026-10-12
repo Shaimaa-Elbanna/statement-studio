@@ -1,0 +1,4 @@
+{
+  "name": "@statement/shared", "private": true, "version": "0.0.0", "type": "module",
+  "exports": "./src/index.ts", "dependencies": { "zod": "^4.1.12" }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "statement-studio", "private": true, "type": "module",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "concurrently -n api,web -c green,blue \"npm run dev -w @statement/api\" \"npm run dev -w @statement/web\"",
+    "build": "npm run build -w @statement/api && npm run build -w @statement/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test -w @statement/api"
+  },
+  "devDependencies": { "concurrently": "^9.2.1", "typescript": "^5.9.3" },
+  "engines": { "node": ">=22.13" }
+}
