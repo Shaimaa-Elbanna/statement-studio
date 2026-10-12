@@ -6,6 +6,32 @@ Requires Node.js 22.13 or newer (Node 24 recommended).
 
 ## App preview
 
+### Parsed statement
+
+Review extracted account details and parsing notes before starting spending analysis.
+
+![Parsed statement with account details and parsing notes](docs/images/parsed-statement.png)
+
+### Account summaries
+
+See money in, money out, net movement, transaction counts, and balance review status for each account.
+
+![Account summaries and balance review status](docs/images/account-summaries.png)
+
+### Spending breakdown
+
+Explore spending by category and month, with transfers and unresolved entries shown separately.
+
+![Spending breakdown by category and month](docs/images/spending-breakdown.png)
+
+### Goal advice
+
+Enter a financial goal to request budgeting suggestions based on the saved spending analysis.
+
+![Financial goal input and goal advice action](docs/images/goal-advice.png)
+
+### Transaction review
+
 Review extracted transactions, filter by category, and correct AI category suggestions to recalculate spending totals.
 
 ![Transaction review with category filters and editable AI suggestions](docs/images/transactions-preview.png)
