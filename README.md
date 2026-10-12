@@ -4,6 +4,14 @@ An npm workspace monorepo with an Express API, a single React page using TanStac
 
 Requires Node.js 22.13 or newer (Node 24 recommended).
 
+## App preview
+
+Review extracted transactions, filter by category, and correct AI category suggestions to recalculate spending totals.
+
+![Transaction review with category filters and editable AI suggestions](docs/images/transactions-preview.png)
+
+## Run locally
+
 ```sh
 npm install
 npm run dev
