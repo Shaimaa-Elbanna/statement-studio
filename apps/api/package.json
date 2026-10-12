@@ -1,6 +1,6 @@
 {
   "name": "@statement/api", "private": true, "type": "module",
-  "scripts": { "dev": "tsx watch src/server.ts", "build": "tsc --noEmit", "typecheck": "tsc --noEmit", "start": "tsx src/server.ts", "test": "tsx --test src/*.test.ts" },
+  "scripts": { "dev": "tsx watch --include .env src/server.ts", "build": "tsc --noEmit", "typecheck": "tsc --noEmit", "start": "tsx src/server.ts", "test": "tsx --test src/*.test.ts" },
   "dependencies": { "@statement/shared": "*", "@openrouter/ai-sdk-provider": "^3.1.0", "ai": "^7.0.137", "decimal.js": "^10.6.0", "dotenv": "^17.2.3", "express": "^5.1.0", "express-rate-limit": "^8.2.1", "multer": "^2.0.2", "pdf-lib": "^1.17.1", "pdfjs-dist": "^6.4.299", "tsx": "^4.20.6" },
   "devDependencies": { "@types/express": "^5.0.5", "@types/multer": "^2.0.0", "@types/node": "^24.10.0" }
 }
